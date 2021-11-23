@@ -1,0 +1,101 @@
+*{
+    user-select: none;
+}
+
+body{
+    background: linear-gradient(rgb(17, 17, 17), rgb(56, 56, 56),rgb(29, 28, 28));
+    color: white;
+}
+
+.logo{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 50%;
+    height:20vh;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: "Poppins", "sans-serif";
+    text-align: center;
+}
+
+
+.info{
+    font-size: 25px;
+    font-family: "Poppins", "sans-serif";
+    text-align: center;
+    font-weight: lighter;
+}
+
+.hashtag{
+    font-size: 25px;
+    font-family: "Poppins", "sans-serif";
+    text-align: center;
+    font-weight: lighter;
+}
+
+.hashtag a{
+    text-decoration: none;
+    color: beige;
+}
+
+.contact-card {
+    font-size: 20px;
+    font-family: "Acme", "sans-serif";
+    background: linear-gradient(to top, rgb(77, 76, 76), rgb(5, 5, 5));
+    padding: 10px 30px;
+    border-radius: 30px;
+    width:30%;
+
+}
+
+.contact-card img{
+    width:10%;
+}
+
+.contactHead{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.moveCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-head{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+
+.social-media img{
+    cursor: pointer;
+}
+
+.social-media-names{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.social-media-names p{
+    cursor: pointer;
+}
